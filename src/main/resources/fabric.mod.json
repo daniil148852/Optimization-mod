@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ultralite",
+  "version": "${version}",
+  "name": "UltraLite Optimizer",
+  "description": "Extreme optimization mod for low-end devices like Unisoc T606",
+  "authors": ["UltraLite Team"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ultralite/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ultralite.UltraLiteMod"
+    ]
+  },
+  "mixins": [
+    "ultralite.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
